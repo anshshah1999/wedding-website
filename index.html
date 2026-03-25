@@ -1283,23 +1283,6 @@
     color: rgba(255,255,255,0.45);
     margin-bottom: 1.8rem;
   }
-  .footer-nav {
-    display: flex;
-    justify-content: center;
-    gap: 1.8rem;
-    flex-wrap: wrap;
-    list-style: none;
-    margin-bottom: 1.8rem;
-  }
-  .footer-nav a {
-    font-size: 0.78rem;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: rgba(255,255,255,0.55);
-    text-decoration: none;
-    transition: color 0.3s;
-  }
-  .footer-nav a:hover { color: white; }
   .footer-copy { font-size: 0.78rem; color: rgba(255,255,255,0.28); }
 
   /* ── JALI OVERLAY ── */
@@ -1777,19 +1760,6 @@
     .theme-title { font-size: 1.3rem; }
   }
 
-
-  /* Same-background consecutive sections — reduce top padding to avoid double gap */
-  .section-no-top-pad {
-    padding-top: 0 !important;
-  }
-  /* Thin divider between same-bg sections instead of full gap */
-  .section-divider {
-    width: 60px;
-    height: 1px;
-    background: rgba(201,169,110,0.25);
-    margin: 0 auto;
-  }
-
 </style>
 </head>
 <body>
@@ -2159,8 +2129,7 @@
     </div>
   </div>
 </section>
-<div class="section-divider"></div>
-<section id="gallery-carousel" class="section-pad section-no-top-pad">
+<section id="gallery-carousel" class="section-pad">
   <div class="section-inner">
     <span class="section-label">A Journey in Pictures</span>
     <h2 class="section-title">Our <em>Journey</em></h2>
@@ -2529,8 +2498,7 @@
 </section>
 
 <!-- ═══════════════════════════════ FOOD & DRINKS ═══════════════════════════════ -->
-<div class="section-divider"></div>
-<section id="food" class="section-pad section-no-top-pad">
+<section id="food" class="section-pad">
   <div class="section-inner">
     <span class="section-label">A Culinary Journey</span>
     <h2 class="section-title">Food &amp; <em>Drinks</em></h2>
@@ -2647,8 +2615,7 @@
 
 
 <!-- ═══════════════════════════════ EVENT THEMES ═══════════════════════════════ -->
-<div class="section-divider"></div>
-<section id="event-themes" class="section-pad section-no-top-pad">
+<section id="event-themes" class="section-pad">
   <div class="section-inner">
     <span class="section-label">Dress the Part</span>
     <h2 class="section-title">Event <em>Themes</em></h2>
@@ -2732,8 +2699,7 @@
 </section>
 
 <!-- ═══════════════════════════════ RSVP ═══════════════════════════════ -->
-<div class="section-divider"></div>
-<section id="rsvp" class="section-pad section-no-top-pad">
+<section id="rsvp" class="section-pad">
   <div class="section-inner">
     <div class="rsvp-center">
       <span class="section-label">You're Invited</span>
@@ -2839,15 +2805,6 @@
   <img src="images/image56.png" alt="Ansh & Bhavya" style="height:64px;width:auto;margin:0 auto 0.5rem;display:block;filter:brightness(0) invert(1) opacity(0.85);"/>
   <p class="footer-logo">Ansh &amp; Bhavya</p>
   <p class="footer-sub">Wedding April 2026 &bull; Nashik &nbsp;•&nbsp; Mumbai</p>
-  <ul class="footer-nav">
-    <li><a href="#home">Home</a></li>
-    <li><a href="#story">Our Story</a></li>
-    <li><a href="#gallery-carousel">Gallery</a>
-              <a href="#couple">Meet the Couple</a></li>
-    <li><a href="#itineraries">Itineraries</a></li>
-    <li><a href="#event-themes">Themes</a></li>
-      <li><a href="#rsvp">RSVP</a></li>
-  </ul>
   <p class="footer-copy">Made with love ♡ for Ansh &amp; Bhavya · 2026</p>
 </footer>
 
