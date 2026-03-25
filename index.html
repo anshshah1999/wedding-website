@@ -19,11 +19,11 @@
     --warm-white: #fffdf9;
     --gold: #c9a96e;
     --gold-light: #e8d5a8;
-    --text-dark: #2c3e35;
-    --text-mid: #5a6e60;
-    --text-light: #8a9e90;
-    --shadow: 0 8px 40px rgba(44,62,53,0.08);
-    --shadow-hover: 0 16px 60px rgba(44,62,53,0.14);
+    --text-dark: #354540;
+    --text-mid: #4a5e50;
+    --text-light: #6b7f70;
+    --shadow: 0 8px 48px rgba(44,62,53,0.06);
+    --shadow-hover: 0 20px 70px rgba(44,62,53,0.10);
   }
 
   * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -76,7 +76,7 @@
   }
   .nav-links { display: flex; gap: 1.8rem; list-style: none; }
   .nav-links a {
-    font-size: 0.72rem;
+    font-size: 0.8rem;
     font-weight: 500;
     letter-spacing: 0.12em;
     text-transform: uppercase;
@@ -142,7 +142,7 @@
   .btn {
     display: inline-block;
     font-family: 'Jost', sans-serif;
-    font-size: 0.72rem;
+    font-size: 0.8rem;
     font-weight: 500;
     letter-spacing: 0.18em;
     text-transform: uppercase;
@@ -186,10 +186,11 @@
   /* LAYOUT */
   section { position: relative; z-index: 1; }
   .section-inner { max-width: 1100px; margin: 0 auto; padding: 0 2rem; }
-  .section-pad { padding: 100px 0; }
+  .section-pad { padding: 130px 0; }
 
   .section-label {
-    font-size: 0.68rem;
+    margin-bottom: 1rem;
+    font-size: 0.76rem;
     font-weight: 500;
     letter-spacing: 0.25em;
     text-transform: uppercase;
@@ -287,7 +288,7 @@
   }
 
   .hero-eyebrow {
-    font-size: 0.7rem;
+    font-size: 0.78rem;
     letter-spacing: 0.3em;
     text-transform: uppercase;
     color: var(--gold);
@@ -358,7 +359,7 @@
     line-height: 1;
   }
   .cd-label {
-    font-size: 0.58rem;
+    font-size: 0.74rem;
     letter-spacing: 0.15em;
     text-transform: uppercase;
     color: var(--gold);
@@ -445,7 +446,7 @@
   }
   .story-node-year {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 0.68rem;
+    font-size: 0.76rem;
     font-style: italic;
     color: var(--gold);
     letter-spacing: 0.06em;
@@ -554,7 +555,7 @@
     text-align: center;
   }
   .chapter-img-placeholder .ch-caption-num {
-    font-size: 0.64rem;
+    font-size: 0.8rem;
     letter-spacing: 0.22em;
     text-transform: uppercase;
     color: var(--gold);
@@ -562,7 +563,7 @@
   }
 
   .ch-num {
-    font-size: 0.64rem;
+    font-size: 0.8rem;
     letter-spacing: 0.22em;
     text-transform: uppercase;
     color: var(--gold);
@@ -576,10 +577,10 @@
     margin-bottom: 0.9rem;
   }
   .ch-body {
-    font-size: 0.93rem;
+    font-size: 1rem;
     line-height: 1.88;
     color: var(--text-mid);
-    font-weight: 300;
+    font-weight: 400;
   }
   .phase-list {
     list-style: none;
@@ -599,7 +600,7 @@
     content: '✦';
     color: var(--gold);
     flex-shrink: 0;
-    font-size: 0.65rem;
+    font-size: 0.81rem;
     margin-top: 0.25rem;
   }
   .ch-bullets {
@@ -613,16 +614,16 @@
   .ch-bullets li {
     display: flex;
     gap: 0.7rem;
-    font-size: 0.91rem;
-    line-height: 1.72;
+    font-size: 0.97rem;
+    line-height: 1.78;
     color: var(--text-mid);
-    font-weight: 300;
+    font-weight: 400;
   }
   .ch-bullets li::before {
     content: '✦';
     color: var(--gold);
     flex-shrink: 0;
-    font-size: 0.6rem;
+    font-size: 0.76rem;
     margin-top: 0.42rem;
   }
   .highlight-box {
@@ -634,11 +635,11 @@
   }
 
   /* ── COUPLE ── */
-  #couple { background: var(--cream); }
+  #couple { background: var(--warm-white); }
   .couple-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 2.2rem;
+    gap: 2.6rem;
     margin-top: 3rem;
   }
   .profile-card {
@@ -694,9 +695,9 @@
     justify-content: center;
     font-size: 2.5rem;
   }
-  .profile-body { padding: 1.8rem; }
+  .profile-body { padding: 2.1rem; }
   .profile-role {
-    font-size: 0.64rem;
+    font-size: 0.8rem;
     letter-spacing: 0.22em;
     text-transform: uppercase;
     color: var(--gold);
@@ -710,7 +711,7 @@
     margin-bottom: 0.2rem;
   }
   .profile-parents {
-    font-size: 0.78rem;
+    font-size: 0.84rem;
     color: var(--text-light);
     font-style: italic;
     padding-bottom: 1rem;
@@ -726,10 +727,10 @@
     margin-bottom: 0.75rem;
   }
   .profile-desc {
-    font-size: 0.88rem;
+    font-size: 0.95rem;
     line-height: 1.82;
     color: var(--text-mid);
-    font-weight: 300;
+    font-weight: 400;
     margin-bottom: 1.2rem;
   }
   .trait-list { list-style: none; display: flex; flex-direction: column; gap: 0.7rem; }
@@ -737,7 +738,7 @@
     padding: 0.75rem 1rem;
     background: var(--cream);
     border-radius: 10px;
-    font-size: 0.84rem;
+    font-size: 0.9rem;
     line-height: 1.6;
     color: var(--text-mid);
     border-left: 2px solid var(--gold-light);
@@ -778,16 +779,16 @@
     margin-bottom: 0.75rem;
   }
   .middle-note p {
-    font-size: 0.9rem;
+    font-size: 0.97rem;
     line-height: 1.85;
     color: var(--text-mid);
-    font-weight: 300;
+    font-weight: 400;
     max-width: 660px;
     margin: 0 auto;
   }
 
   /* ── ITINERARIES TOGGLE PILL ── */
-  #itineraries { background: var(--warm-white); }
+  #itineraries { background: var(--cream); }
   .toggle-pill-wrap {
     display: flex;
     justify-content: flex-start;
@@ -803,7 +804,7 @@
   }
   .toggle-pill-btn {
     font-family: 'Jost', sans-serif;
-    font-size: 0.73rem;
+    font-size: 0.81rem;
     font-weight: 500;
     letter-spacing: 0.12em;
     text-transform: uppercase;
@@ -837,7 +838,7 @@
     border-bottom: 1px solid rgba(201,169,110,0.18);
   }
   .itin-family-label {
-    font-size: 0.66rem;
+    font-size: 0.74rem;
     letter-spacing: 0.2em;
     text-transform: uppercase;
     color: var(--gold);
@@ -857,14 +858,14 @@
     border: 1px solid rgba(201,169,110,0.22);
     border-radius: 60px;
     padding: 0.4rem 1.1rem;
-    font-size: 0.7rem;
+    font-size: 0.78rem;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: var(--gold);
   }
   .day-section { margin-bottom: 2.2rem; }
   .day-header {
-    font-size: 0.7rem;
+    font-size: 0.78rem;
     font-weight: 500;
     letter-spacing: 0.2em;
     text-transform: uppercase;
@@ -927,7 +928,7 @@
     color: var(--teal-deep);
     line-height: 1;
   }
-  .ev-ampm { font-size: 0.6rem; color: var(--text-light); letter-spacing: 0.08em; }
+  .ev-ampm { font-size: 0.76rem; color: var(--text-light); letter-spacing: 0.08em; }
   .ev-dot {
     width: 7px; height: 7px;
     border-radius: 50%;
@@ -944,17 +945,17 @@
     margin-bottom: 0.18rem;
   }
   .ev-venue {
-    font-size: 0.72rem;
+    font-size: 0.8rem;
     color: var(--gold);
     letter-spacing: 0.07em;
     margin-bottom: 0.35rem;
   }
   .ev-desc {
-    font-size: 0.83rem;
+    font-size: 0.9rem;
     color: var(--text-mid);
-    line-height: 1.55;
+    line-height: 1.6;
     font-style: italic;
-    font-weight: 300;
+    font-weight: 400;
   }
 
   .joint-card {
@@ -977,13 +978,13 @@
     top: 1.1rem;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 0.65rem;
+    font-size: 0.81rem;
     letter-spacing: 0.5em;
     color: var(--gold);
     opacity: 0.55;
   }
   .joint-pretitle {
-    font-size: 0.68rem;
+    font-size: 0.76rem;
     letter-spacing: 0.25em;
     text-transform: uppercase;
     color: var(--gold);
@@ -1013,16 +1014,16 @@
     line-height: 1.5;
   }
   .joint-note {
-    font-size: 0.9rem;
+    font-size: 0.97rem;
     color: var(--text-mid);
     line-height: 1.8;
     max-width: 540px;
     margin: 0 auto 1.8rem;
-    font-weight: 300;
+    font-weight: 400;
   }
 
   /* ── FOOD ── */
-  #food { background: var(--cream); }
+  #food { background: var(--warm-white); }
   .food-lead {
     font-family: 'Cormorant Garamond', serif;
     font-size: clamp(1.05rem, 2.3vw, 1.3rem);
@@ -1039,8 +1040,8 @@
   }
   .food-card {
     background: white;
-    border-radius: 20px;
-    padding: 1.75rem;
+    border-radius: 24px;
+    padding: 2.2rem;
     box-shadow: var(--shadow);
     border: 1px solid rgba(201,169,110,0.1);
     position: relative;
@@ -1082,7 +1083,7 @@
     background: rgba(201,169,110,0.07);
   }
   .food-icon-label {
-    font-size: 0.58rem;
+    font-size: 0.74rem;
     letter-spacing: 0.1em;
     color: var(--text-light);
     margin-bottom: 0.7rem;
@@ -1098,10 +1099,10 @@
     margin-bottom: 0.65rem;
   }
   .food-body {
-    font-size: 0.87rem;
+    font-size: 0.95rem;
     line-height: 1.78;
     color: var(--text-mid);
-    font-weight: 300;
+    font-weight: 400;
   }
   .food-note-box {
     margin-top: 2.8rem;
@@ -1142,11 +1143,11 @@
     margin-bottom: 1rem;
   }
   .rsvp-body {
-    font-size: 0.92rem;
+    font-size: 1rem;
     line-height: 1.88;
     color: var(--text-mid);
     margin-bottom: 1.8rem;
-    font-weight: 300;
+    font-weight: 400;
   }
   .rsvp-badge {
     display: inline-block;
@@ -1211,7 +1212,7 @@
     margin-bottom: 0.25rem;
   }
   .gallery-action {
-    font-size: 0.68rem;
+    font-size: 0.76rem;
     letter-spacing: 0.12em;
     text-transform: uppercase;
     color: var(--gold);
@@ -1255,7 +1256,7 @@
     line-height: 1;
   }
   .closing-caption {
-    font-size: 0.72rem;
+    font-size: 0.8rem;
     letter-spacing: 0.22em;
     text-transform: uppercase;
     color: var(--gold);
@@ -1276,7 +1277,7 @@
     margin-bottom: 0.25rem;
   }
   .footer-sub {
-    font-size: 0.7rem;
+    font-size: 0.78rem;
     letter-spacing: 0.2em;
     text-transform: uppercase;
     color: rgba(255,255,255,0.45);
@@ -1291,7 +1292,7 @@
     margin-bottom: 1.8rem;
   }
   .footer-nav a {
-    font-size: 0.7rem;
+    font-size: 0.78rem;
     letter-spacing: 0.12em;
     text-transform: uppercase;
     color: rgba(255,255,255,0.55);
@@ -1299,7 +1300,7 @@
     transition: color 0.3s;
   }
   .footer-nav a:hover { color: white; }
-  .footer-copy { font-size: 0.7rem; color: rgba(255,255,255,0.28); }
+  .footer-copy { font-size: 0.78rem; color: rgba(255,255,255,0.28); }
 
   /* ── JALI OVERLAY ── */
   .jali {
@@ -1339,8 +1340,8 @@
   }
   @media (max-width: 480px) {
     .countdown-wrap { gap: 0.55rem; }
-    .section-pad { padding: 70px 0; }
-    .hero-pill { font-size: 0.7rem; padding: 0.6rem 1.2rem; gap: 0.5rem; }
+    .section-pad { padding: 90px 0; }
+    .hero-pill { font-size: 0.78rem; padding: 0.6rem 1.2rem; gap: 0.5rem; }
   }
 
   /* ── PHOTO GALLERY CAROUSEL ── */
@@ -1415,7 +1416,7 @@
     margin-bottom: 0.1rem;
   }
   .strip-caption-sub {
-    font-size: 0.64rem;
+    font-size: 0.8rem;
     letter-spacing: 0.15em;
     text-transform: uppercase;
     color: rgba(232,213,168,0.88);
@@ -1460,7 +1461,7 @@
   .strip-counter {
     text-align: center;
     margin-top: 0.75rem;
-    font-size: 0.7rem;
+    font-size: 0.78rem;
     letter-spacing: 0.15em;
     text-transform: uppercase;
     color: var(--text-light);
@@ -1555,7 +1556,7 @@
 
   #lb-counter {
     margin-top: 1rem;
-    font-size: 0.7rem;
+    font-size: 0.78rem;
     letter-spacing: 0.18em;
     text-transform: uppercase;
     color: rgba(255,253,249,0.5);
@@ -1566,7 +1567,7 @@
   }
 
   .food-event {
-    font-size: 0.62rem;
+    font-size: 0.78rem;
     letter-spacing: 0.2em;
     text-transform: uppercase;
     color: #5BA3A0;
@@ -1583,7 +1584,7 @@
   .themes-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
+    gap: 2.4rem;
     margin-top: 3rem;
   }
   .theme-card {
@@ -1630,7 +1631,7 @@
   .theme-photo-tag {
     position: absolute;
     top: 0.75rem; left: 0.85rem;
-    font-size: 0.56rem;
+    font-size: 0.8rem;
     letter-spacing: 0.2em;
     text-transform: uppercase;
     font-family: 'Jost', sans-serif;
@@ -1643,7 +1644,7 @@
   }
   .theme-body { padding: 1.4rem 1.75rem 1.75rem; }
   .theme-event-tag {
-    font-size: 0.6rem;
+    font-size: 0.76rem;
     letter-spacing: 0.2em;
     text-transform: uppercase;
     color: #5BA3A0;
@@ -1660,7 +1661,7 @@
     line-height: 1.2;
   }
   .theme-style-label {
-    font-size: 0.68rem;
+    font-size: 0.76rem;
     font-weight: 500;
     letter-spacing: 0.12em;
     text-transform: uppercase;
@@ -1676,7 +1677,7 @@
     margin-bottom: 0.85rem;
   }
   .theme-attire-list li {
-    font-size: 0.73rem;
+    font-size: 0.81rem;
     font-family: 'Jost', sans-serif;
     color: var(--teal-deep);
     background: rgba(91,163,160,0.08);
@@ -1686,10 +1687,10 @@
     font-weight: 400;
   }
   .theme-desc {
-    font-size: 0.84rem;
+    font-size: 0.95rem;
     line-height: 1.8;
     color: var(--text-mid);
-    font-weight: 300;
+    font-weight: 400;
     margin: 0;
   }
   @media (max-width: 640px) {
@@ -1704,13 +1705,13 @@
   .themes-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
+    gap: 2.4rem;
     margin-top: 3rem;
   }
   .theme-card {
     background: white;
     border-radius: 20px;
-    padding: 1.75rem;
+    padding: 2.2rem;
     box-shadow: var(--shadow);
     border: 1px solid rgba(201,169,110,0.1);
     position: relative;
@@ -1739,7 +1740,7 @@
   }
   .theme-icon-wrap svg { display: block; }
   .theme-event-label {
-    font-size: 0.6rem;
+    font-size: 0.76rem;
     letter-spacing: 0.22em;
     text-transform: uppercase;
     color: #5BA3A0;
@@ -1756,7 +1757,7 @@
     line-height: 1.2;
   }
   .theme-style {
-    font-size: 0.7rem;
+    font-size: 0.78rem;
     font-weight: 600;
     letter-spacing: 0.12em;
     text-transform: uppercase;
@@ -1765,15 +1766,28 @@
     margin-bottom: 0.85rem;
   }
   .theme-desc {
-    font-size: 0.84rem;
+    font-size: 0.95rem;
     line-height: 1.8;
     color: var(--text-mid);
-    font-weight: 300;
+    font-weight: 400;
     margin: 0;
   }
   @media (max-width: 640px) {
     .themes-grid { grid-template-columns: 1fr; gap: 1.4rem; }
     .theme-title { font-size: 1.3rem; }
+  }
+
+
+  /* Same-background consecutive sections — reduce top padding to avoid double gap */
+  .section-no-top-pad {
+    padding-top: 0 !important;
+  }
+  /* Thin divider between same-bg sections instead of full gap */
+  .section-divider {
+    width: 60px;
+    height: 1px;
+    background: rgba(201,169,110,0.25);
+    margin: 0 auto;
   }
 
 </style>
@@ -2145,7 +2159,8 @@
     </div>
   </div>
 </section>
-<section id="gallery-carousel" class="section-pad">
+<div class="section-divider"></div>
+<section id="gallery-carousel" class="section-pad section-no-top-pad">
   <div class="section-inner">
     <span class="section-label">A Journey in Pictures</span>
     <h2 class="section-title">Our <em>Journey</em></h2>
@@ -2514,7 +2529,8 @@
 </section>
 
 <!-- ═══════════════════════════════ FOOD & DRINKS ═══════════════════════════════ -->
-<section id="food" class="section-pad">
+<div class="section-divider"></div>
+<section id="food" class="section-pad section-no-top-pad">
   <div class="section-inner">
     <span class="section-label">A Culinary Journey</span>
     <h2 class="section-title">Food &amp; <em>Drinks</em></h2>
@@ -2631,7 +2647,8 @@
 
 
 <!-- ═══════════════════════════════ EVENT THEMES ═══════════════════════════════ -->
-<section id="event-themes" class="section-pad">
+<div class="section-divider"></div>
+<section id="event-themes" class="section-pad section-no-top-pad">
   <div class="section-inner">
     <span class="section-label">Dress the Part</span>
     <h2 class="section-title">Event <em>Themes</em></h2>
@@ -2715,7 +2732,8 @@
 </section>
 
 <!-- ═══════════════════════════════ RSVP ═══════════════════════════════ -->
-<section id="rsvp" class="section-pad">
+<div class="section-divider"></div>
+<section id="rsvp" class="section-pad section-no-top-pad">
   <div class="section-inner">
     <div class="rsvp-center">
       <span class="section-label">You're Invited</span>
